@@ -6,7 +6,7 @@ export default function Home() {
   function ListItems() {
     const ints = [1, 2, 3,]
     return (
-      <>
+      <div>
         {
           ints.map(id => {
             return (
@@ -14,7 +14,7 @@ export default function Home() {
             )
           })
         }
-      </>
+      </div>
     )
   }
   return (
