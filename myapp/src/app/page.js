@@ -1,26 +1,13 @@
+import Header from "./components/Header";
 
 
-
-export default function Home() {
-
-  // 
-  function ListItems() {
-    const ints = [1, 2, 3,]
-    return (
-      <>
-        {
-          ints.map(id => {
-            return (
-              <li>{id}</li>
-            )
-          })
-        }
-      </>
-    )
-  }
+const Home = () => {
   return (
-    <ul>
-      <ListItems />
-    </ul>
-  )
+    <div>
+      <Header />
+
+    </div>
+  );
 }
+
+export default Home;
