@@ -8,6 +8,7 @@ function App() {
       const rsp = await fetch('/house.json')
       const houses = await rsp.json()
     }
+    // 
     fetchHouse()
   }, [])
   return (
