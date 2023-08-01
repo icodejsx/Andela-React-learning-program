@@ -1,13 +1,15 @@
-import Header from "./components/Header";
+import Home from "./components/Home";
 
 
-const Home = () => {
+
+
+const page = () => {
+
   return (
     <div>
-      <Header />
-
+      <Home />
     </div>
   );
 }
 
-export default Home;
+export default page;
