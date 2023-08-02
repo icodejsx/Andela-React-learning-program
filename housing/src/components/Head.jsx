@@ -1,13 +1,14 @@
 
 
-const Head = () => {
+// eslint-disable-next-line react/prop-types
+const Head = ({ logo, headingtext }) => {
     return (
         <header className=' flex w-full justify-center items-center'>
             <div>
-                <img src='/logoo.png' className='w-32' />
+                <img src={logo} className='w-32' />
             </div>
             <h1 className="text-2xl">
-                Providing House All Over the World
+                {headingtext}
             </h1>
 
         </header>
