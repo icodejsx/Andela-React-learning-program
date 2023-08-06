@@ -1,3 +1,4 @@
+"use c  lient"
 import React from 'react';
 import { useEffect } from 'react';
 import Header from './Header';
@@ -8,7 +9,7 @@ const Home = () => {
             const rsp = await fetch('/house.json')
             const houses = await rsp.json()
         }
-    }, [title])
+    },)
     return (
         <div>
             <Header />
