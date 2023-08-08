@@ -5,12 +5,15 @@ import ImageScoll from '../components/ImageScoll';
 const pages = () => {
     return (
         <div>
+            {[3, 4, 6, 7, 8, 9, 11, 12].map((speakerId) => {
 
-            <div className='flex gap-2  w-96 '>
-                <ImageScoll primary='/manbw.jpg' secondary='/man.jpg' />
-                <ImageScoll primary='/man1bw.jpg' secondary='/man1.jpg' />
+                return (
+                    <div key={speakerId} className=' '>
+                        <ImageScoll primary={`/man${speakerId}bw.jpg`} secondary={`/man${speakerId}.jpg`} />
+                    </div>
+                )
+            })}
 
-            </div>
         </div>
     );
 }

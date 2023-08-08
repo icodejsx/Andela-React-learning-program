@@ -6,10 +6,12 @@ import React from 'react';
 const ImageScoll = ({ secondary, primary }) => {
     const imageRef = useRef(null)
 
+
     const isInView = () => {
-        const rect = imageRef.currentRect.getBoundingClientReact()
-        return rect.top >= 0 && rect.bottom <= window.innerHeight
+        const rect = imageRef.current.getBoundingClientRect();
+        return rect.top >= 0 && rect.bottom <= window.innerHeight;
     }
+
 
     const [inView, setInVew] = useState(false)
     useEffect(() => {
@@ -27,7 +29,7 @@ const ImageScoll = ({ secondary, primary }) => {
     return (
         <div>
             <img
-                src={primary} ref={imageRef} />
+                src={inView ? secondary : primary} ref={imageRef} />
         </div>
     );
 }
