@@ -1,10 +1,14 @@
-import Image from 'next/image'
+import Header from "./components/Header";
+
 
 export default function Home() {
   return (
+    <div>
 
-    <div className='text-3xl bg-red-800'>
-      Hello Welcome to Nextjs
+      <Header />
+
+
+
     </div>
   )
 }
