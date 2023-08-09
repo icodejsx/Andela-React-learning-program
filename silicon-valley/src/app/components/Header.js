@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Signup from './Signup';
 
@@ -17,7 +18,7 @@ const Header = () => {
                 <div className='flex text-xl '> <p className='text-sky-100 bg-red-400 h-6 text-center flex justify-center font-semibold items-center w-6 text-xl rounded-r- '>s</p> <p className='text-sky-100 bg-yellow-400 h-6 text-center flex justify-center font-semibold items-center w-6 text-xl rounded-r- '>v</p> <p className='text-sky-100 bg-green-400 h-6 text-center flex justify-center font-semibold items-center w-6 text-xl rounded-r- '>c</p> <p className='text-sky-100 bg-blue-400 h-6 text-center flex justify-center font-semibold items-center w-6 text-xl rounded-r- '>c</p></div>
                 <p className='text-4xl font-semibold'>Silicon Valley Code Camp 2023</p>
                 <div >
-                    <Signup signupCallBack={signupCallBack} />
+                    <Signup signupCall={signupCallBack} />
                 </div>
             </div>
 
