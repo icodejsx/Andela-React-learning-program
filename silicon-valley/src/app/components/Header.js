@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div className='flex bg-slate-400  items-center h-44 justify-around'>
+        <div className='flex md:flex-row flex-col bg-slate-400  items-center md:h-44 a justify-around'>
             <div className='font-bold'>
                 <p>October 19-20  2023</p>
                 <p> SAN JOSE, CALIFORNIAN</p>
