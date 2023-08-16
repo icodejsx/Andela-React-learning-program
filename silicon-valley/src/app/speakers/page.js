@@ -14,7 +14,7 @@ const page = () => {
     const [speakerList, setSpeakerList] = useState()
     const [isLoading, setIsLoading] = useState(false)
 
-    // working 
+
 
     useEffect(() => {
         setIsLoading(true)
