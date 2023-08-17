@@ -6,8 +6,6 @@ import speakerData from '../lib/SpeakersData';
 import SpeakerDetails from '../components/SpeakerDetails';
 
 const page = () => {
-
-    // jhhggff
     const [speakingSaturday, setSpeakingSaturday] = useState(true)
     const [speakingSunday, setSpeakingSunday] = useState(true)
 
