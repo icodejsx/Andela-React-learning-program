@@ -7,8 +7,6 @@ const SpeakerDetails = ({ id, firstName, lastName, favorite, bio, onHeartFavorit
         <div className='grid grid-cols-4'>
             <div className='col-span-1'>
                 <ImageScoll className=' ' primary={`/man${id}bw.jpg`} secondary={`/man${id}.jpg`} alt={`${firstName} ${lastName}`} />
-
-
                 <div>
                     <h4>
                         <Button data-sessionid={id} className={favorite ? 'heartredbutton ' : 'heartdarkbutton'}
