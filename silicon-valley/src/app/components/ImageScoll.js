@@ -5,7 +5,7 @@ import React from 'react';
 
 const ImageScoll = ({ secondary, primary }) => {
     const imageRef = useRef(null)
-
+    // ?last ine 
 
     const [isLoading, setIsLoading] = useState(true)
 
